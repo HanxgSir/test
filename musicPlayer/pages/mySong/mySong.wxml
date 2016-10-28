@@ -1,0 +1,13 @@
+<view>
+    <view class="subtitle_box">
+        <text class="subtitle">全部歌曲</text>
+    </view>
+    <view>
+        <view class="songs">
+            <audio src="{{src}}" controls loop name="此时此刻" author="许巍"></audio>
+        </view>
+        <view class="songs">
+            <text bindtap="playSong">此时此刻 许巍</text>
+        </view>
+    </view>
+</view>

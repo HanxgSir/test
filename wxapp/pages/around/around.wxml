@@ -1,0 +1,6 @@
+<!--index html-->
+<view class="container">
+    <view>
+        <button bindtap="searchAround" class="title">看周边</button>
+    </view>
+</view>

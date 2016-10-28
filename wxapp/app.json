@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/appIndex/appIndex",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/imagesHandle/imagesHandle",
+    "pages/around/around"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "green",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color":"#c9c9c9",
+    "selectedColor":"green",
+    "borderStyle":"#fff",
+    "list":[{
+      "pagePath":"pages/appIndex/appIndex",
+      "iconPath":"images/icon1.png",
+      "selectedIconPath":"images/icon6.png",
+      "text":"首页"
+    },{
+      "pagePath":"pages/logs/logs",
+      "iconPath":"images/icon4.png",
+      "selectedIconPath":"images/icon5.png",
+      "text":"日志"
+    },{
+      "pagePath":"pages/around/around",
+      "iconPath":"",
+      "text":"搜周边"
+    }]
+  }
+}

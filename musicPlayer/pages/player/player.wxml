@@ -1,0 +1,20 @@
+<!--player html-->
+<view class="subtitle_box">
+    <text class="subtitle">歌单</text>
+</view>
+<view class="carousel">
+    <swiper indicator-dots="true" autoplay="true" duration="1000" current="0">
+        <swiper-item>
+            <view class="item1"></view>
+        </swiper-item>
+        <swiper-item>
+             <view class="item2"></view>
+        </swiper-item>
+            <swiper-item>
+              <view class="item3"></view>
+        </swiper-item>
+    </swiper>
+</view>
+<view>
+
+</view>

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/player/player",
+    "pages/mySong/mySong",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTitleText": "旧念播放器",
+    "navigationBarBackgroundColor": "#5DFF2F",
+    "navigationBarTextStyle": "#fff",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#FF36CD",
+    "backgroundColor": "#0CFF21",
+    "list": [
+      {
+        "pagePath": "pages/player/player",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "",
+        "text": "分类",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "",
+        "text": "喜好",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/mySong/mySong",
+        "text": "我的",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+.subtitle_box{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.subtitle{
+    color: red;
+    font-weight: bold;
+}
+
+.songs{
+    text-align: center;
+    margin-top: 0.75rem;
+}

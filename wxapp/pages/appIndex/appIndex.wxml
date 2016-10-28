@@ -1,0 +1,7 @@
+<!--index html-->
+<view class="container">
+    <view>
+        <text bindtap="bindViewTap" class="title">我来将你的美丽展现给世界</text>
+    </view>
+</view>
+

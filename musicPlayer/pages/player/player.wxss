@@ -1,0 +1,29 @@
+
+.subtitle_box{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.subtitle{
+    color: red;
+    font-weight: bold;
+}
+
+.carousel{
+    margin-top: 1.25rem
+}
+
+.item1{
+    background: url("../images/image1.jpg") no-repeat center center;
+    height:10rem;
+}
+
+.item2{
+    background: url("../images/image2.jpg") no-repeat center center;
+    height:10rem;
+}
+
+.item3{
+    background: url("../images/image3.jpg") no-repeat center center;
+    height:10rem;
+}

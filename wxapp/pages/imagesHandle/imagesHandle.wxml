@@ -1,0 +1,19 @@
+<!--index html-->
+<view class="container">
+    <view>
+        <text class="title">制作属于自己照片墙</text>
+    </view>
+    <view wx:if="{{imagesUrl.length>0}}" class="photoWall">
+        <image src="{{item}}" class="img" wx:for="{{imagesUrl}}"></image>
+    </view>
+    <swiper indicator-dots="true" autoplay="true" duration="1000" current="0" style="width:15rem" class="photoSelf">
+        <swiper-item wx:for="{{imgWall}}">
+          <image src="{{item}}" class="slide-image"></image>
+        </swiper-item>
+    </swiper>
+    <view class="btn">
+        <button bindtap="addImages" class="add_images">选择照片</button>
+        <button bindtap="createWall" class="create_wall">制作照片墙</button>
+        <button bindtap="clearImages" class="clear_images">清空照片</button>
+    </view>
+</view>
