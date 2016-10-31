@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/player/player",
+    "pages/kinds/kinds",
     "pages/mySong/mySong",
     "pages/index/index",
     "pages/logs/logs"
@@ -23,13 +24,13 @@
         "selectedIconPath": ""
       },
       {
-        "pagePath": "",
+        "pagePath": "pages/kinds/kinds",
         "text": "分类",
         "iconPath": "",
         "selectedIconPath": ""
       },
       {
-        "pagePath": "",
+        "pagePath": "pages/logs/logs",
         "text": "喜好",
         "iconPath": "",
         "selectedIconPath": ""

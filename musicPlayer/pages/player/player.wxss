@@ -27,3 +27,10 @@
     background: url("../images/image3.jpg") no-repeat center center;
     height:10rem;
 }
+
+.songs_type{
+    margin-top:0.75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -15,6 +15,11 @@
         </swiper-item>
     </swiper>
 </view>
+<view wx:if="{{type.length>0}}" class="songs_type">
+    <button wx:for="{{type}}" class="songs_btn" type="primary">
+        {{item}}
+    </button>
+</view>
 <view>
 
 </view>
