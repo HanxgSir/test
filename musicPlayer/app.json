@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/player/player",
-    "pages/kinds/kinds",
     "pages/mySong/mySong",
-    "pages/index/index",
+    "pages/kinds/kinds",
     "pages/logs/logs"
+
   ],
   "window": {
     "navigationBarTitleText": "旧念播放器",

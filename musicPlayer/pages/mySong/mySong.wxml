@@ -4,10 +4,7 @@
     </view>
     <view>
         <view class="songs">
-            <audio src="{{src}}" controls loop name="此时此刻" author="许巍"></audio>
-        </view>
-        <view class="songs">
-            <text bindtap="playSong">此时此刻 许巍</text>
+            <audio src="{{src}}" poster="{{poster}}" controls loop name="此时此刻" author="许巍" id="myAudio"></audio>
         </view>
     </view>
 </view>
